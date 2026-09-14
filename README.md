@@ -1,5 +1,7 @@
-# Unjpeg images
-Petty django & keras+tensorflow application. Feautes:
-* embedded trained network, nn.hdf5
-* neural_network_backend -> run runner.py to train new network. Something something for 64x64 images
-* run UI from root "manage.py runserver", feed it with an image and trained network (each time, sadly)
+# JPEG Image Restoration with Deep CNN
+
+A Django web application for reducing JPEG compression artifacts using a deep convolutional neural network.
+
+The project includes a pre-trained Keras/TensorFlow model and a simple web interface for uploading and processing images.
+
+**Stack:** Python, Django, TensorFlow/Keras, NumPy
